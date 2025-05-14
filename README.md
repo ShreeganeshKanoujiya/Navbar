@@ -23,7 +23,7 @@ Each navbar has a screenshot (`.png`) in its folder so you can quickly preview t
 
 2. Navigate to any navbar folder.
 
-3. Open ```bash index.html ``` in your browser to preview.
+3. Open ```bash index.html``` in your browser to preview.
 
 4. Copy the code into your project and customize as needed!
 
