@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #24252A;
+}
+
+li, a, button {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links {
+    list-style: none;
+    position: relative;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.dropdown_list{
+    display: none;
+}
+
+.nav_links:hover .dropdown_list {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 150%;
+    background-color: #0088a9;
+}
+
+.nav_links:hover .dropdown_list ul{
+    display: block;
+    margin: 10px;
+}
+
+.nav_links:hover .dropdown_list ul li{
+    display: block;
+    background-color: #0088a9;
+    padding: 10px;
+}
+
+.dropdown_list ul li:hover{
+    color: #24252A;
+}
